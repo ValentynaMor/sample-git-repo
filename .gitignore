@@ -1,0 +1,122 @@
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Compiled Form Modules
+*.fmx
+
+# Compiled Menu Modules
+*.mmx	
+
+# Compiled Pre-Linked Libraries
+*.plx
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# hidden system files
+
+.idea/*
+.DS_Store
+
+# Other
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!system/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+.temp
+.cache
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
+
+*.tar
+*.tar.*
+*.jar
+*.exe
+*.msi
+*.zip
+*.tgz
+*.log
+*.log.*
+logs/
+/debug.log
+debug.log
+*.sig
+
+pkg/
+src/
